@@ -9,7 +9,7 @@ public class MyRestController {
     // Expose "/" that return "Hello world"
     @GetMapping("/")
     public String sayHello() {
-        return "Hello World!";
+        return "Hello world!";
     }
 
     // Expose a new endpoint for "workout"
